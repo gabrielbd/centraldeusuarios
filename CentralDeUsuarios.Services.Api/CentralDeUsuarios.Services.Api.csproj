@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CentralDeUsuarios.Application\CentralDeUsuarios.Application.csproj" />
+    <ProjectReference Include="..\CentralDeUsuarios.Infra.Data\CentralDeUsuarios.Infra.Data.csproj" />
+    <ProjectReference Include="..\CentralDeUsuarios.Infra.Logs\CentralDeUsuarios.Infra.Logs.csproj" />
+  </ItemGroup>
+
 </Project>
